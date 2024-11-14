@@ -7,7 +7,7 @@ async def request(url1: str, method1: str):
 async def main():
 	# Put your code here. This is the only place you can get the data from requests.
 	# Proper format; (RequestVariable = await request(url, method)
-    req = await request("https://catfact.ninja/fact", "GET") # example request
-    print(req) # will print response of request
+	req = await request("https://catfact.ninja/fact", "GET") # example request
+	print(req) # will print response of request
     
 aio.run(main())
